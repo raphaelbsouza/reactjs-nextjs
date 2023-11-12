@@ -1,0 +1,33 @@
+Anotações ReactJS e nextJS.
+//
+
+var lista = ["Nome1","Nome2","Nome3","Nome4","Nome5"]
+
+lista.indexOf("Nome5") // Procura Posição // -1 = nãoexiste
+4
+
+lista.join(",") // Juntar // Separa // Insere qualquer
+"Nome1,Nome2,Nome3,Nome4,Nome5"
+
+lista.pop(); // Remove o ultimo elemento do array
+"Nome5"
+
+lista.shift() // Remove o primeiro elemento do array
+"Nome1"
+
+lista[0] = "O que deseja" // substitui elemtno da posiçao 0 para o desejado
+
+lista.push("Nome5") // adiciona um item/elemento na lista
+
+if(lista.indexOf("Henrique") > -1){
+  alert("Este item esta na lista");
+}else{
+    alert("Opa não encontrado");
+}
+
+if(lista.indexOf("Raphael") > -1){
+  alert("Este item esta na lista");
+}else{
+    alert("Opa não encontrado");
+}
+
